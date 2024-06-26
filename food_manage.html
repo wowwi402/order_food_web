@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Shop</title>
+  <link rel="stylesheet" href="food_manage.css">
+</head>
+<body>
+  <header>
+    <h1>Food Shop</h1>
+  </header>
+
+  <section class="banner">
+    <img src="banner.jpg" alt="Banner">
+  </section>
+
+  <section class="categories">
+    <h2>Danh mục</h2>
+    <ul>
+      <li><a href="#">Món chính</a></li>
+      <li><a href="#">Món khai vị</a></li>
+      <li><a href="#">Đồ uống</a></li>
+      <li><a href="#">Tráng miệng</a></li>
+    </ul>
+  </section>
+
+  <section class="products">
+    <h2>Sản phẩm</h2>
+    <div class="product-item">
+      <img src="product1.jpg" alt="Thịt cừu nướng">
+      <h3>Thịt cừu nướng</h3>
+      <p>Thịt cừu mềm ngọt, tẩm ướp gia vị đậm đà, nướng trên than hoa thơm lừng</p>
+      <span class="price">90.000đ</span>
+      <button class="btn-add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+    <div class="product-item">
+      <img src="product2.jpg" alt="Gà rán">
+      <h3>Gà rán</h3>
+      <p>Gà rán giòn rụm, vàng ươm, ăn kèm khoai tây chiên và sốt mayonnaise</p>
+      <span class="price">50.000đ</span>
+      <button class="btn-add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+    <div class="product-item">
+      <img src="product3.jpg" alt="Vịt quay">
+      <h3>Vịt quay</h3>
+      <p>Vịt quay da giòn, thịt mềm, béo ngậy, ăn kèm bánh tráng, rau sống và nước chấm</p>
+      <span class="price">130.000đ</span>
+      <button class="btn-add-to-cart">Thêm vào giỏ hàng</button>
+    </div>
+  </section>
+
+  <section class="cart">
+    <h2>Giỏ hàng</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Món ăn</th>
+          <th>Số lượng</th>
+          <th>Giá</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Thịt cừu nướng</td>
+          <td>1</td>
+          <td>90.000đ</td>
+        </tr>
+        <tr>
+          <td colspan="2">Tổng</td>
+          <td>90.000đ</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button class="btn-payment">Thanh toán</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Food Shop</p>
+  </footer>
+</body>
+</html>

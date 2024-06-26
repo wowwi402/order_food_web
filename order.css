@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.menu, .cart {
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+}
+
+.sushi-item {
+  width: 50%;
+}
+
+.sushi-item img {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.price {
+  font-weight: bold;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Specific styles for the image */
+.sushi-item img {
+  border-radius: 10px; /* Add rounded corners to the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+}
+
+/* Specific styles for the cart table */
+.cart table {
+  width: 80%; /* Make the table narrower */
+  margin: 0 auto; /* Center the table */
+}
+
+.cart th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.cart td:last-child {
+  text-align: right; /* Align the price column to the right */
+}
+
+.cart .btn-payment {
+  display: block; /* Make the button a block element */
+  margin: 20px auto; /* Center the button */
+  width: 200px; /* Set a width for the button */
+}
